@@ -842,7 +842,7 @@ bool SecFimc::setSrcParams(unsigned int width, unsigned int height,
         return false;
     }
 
-    if (fimc_v4l2_req_buf(mFd, 1, V4L2_BUF_TYPE_SRC, V4L2_MEMORY_TYPE_SRC) < 0) {
+    if (fimc_v4l2_req_buf(mFd, 2, V4L2_BUF_TYPE_SRC, V4L2_MEMORY_TYPE_SRC) < 0) {
         ALOGE("%s::fimc_v4l2_req_buf()[src] failed", __func__);
         return false;
     }
