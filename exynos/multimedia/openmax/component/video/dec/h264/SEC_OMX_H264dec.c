@@ -55,7 +55,7 @@
 #define SEC_LOG_OFF
 #include "SEC_OSAL_Log.h"
 
-#define H264_DEC_NUM_OF_EXTRA_BUFFERS 1
+#define H264_DEC_NUM_OF_EXTRA_BUFFERS 7
 
 #ifdef S3D_SUPPORT
 #define ADD_SPS_PPS_I_FRAME
